@@ -1,3 +1,21 @@
+.ih-item.square {
+  position: relative;
+  width: 316px;
+  height: 216px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ih-item.square .info {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
 .ih-item.square.effect6 {
   overflow: hidden;
 }
